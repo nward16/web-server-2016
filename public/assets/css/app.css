@@ -1,0 +1,29 @@
+#main {
+  width: calc(100% - 200px);
+  background-color: silver;
+  color: red;
+}
+
+#aside {
+  width: 200px;
+  color: red;
+}
+
+#logo-wrapper {
+  color: red;
+  background-color:green;
+}
+
+#slider {
+  background-color: violet;
+}
+
+#titulos {
+  color: green;
+  background-color: yellow;
+
+}
+#shoppers {
+  color: red;
+  background-color: black;
+}
