@@ -12,7 +12,23 @@ aside {
   background-color: blue;
 }
 
+#sign-in {
+  background-color: violet;
+}
+
 #sign-up {
+  background-color: violet;
+}
+
+#right-banner-1 {
+  background-color: orange;
+}
+
+#right-banner-2 {
+  background-color: orange;
+}
+
+#right-banner-3 {
   background-color: orange;
 }
 
@@ -22,7 +38,7 @@ aside {
 }
 
 #slider {
-  background-color: violet;
+  background-color: orange;
 }
 
 #titulos {
