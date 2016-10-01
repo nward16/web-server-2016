@@ -1,6 +1,6 @@
 main {
   width: calc(100% - 200px);
-  background-color: silver;
+  background-color: violet;
   color: red;
   float: left;
 }
@@ -12,12 +12,34 @@ aside {
   background-color: blue;
 }
 
+img.small {
+  width:50px;
+  height: 50px.
+}
+
+img.medium {
+  width: 200px;
+  height: 100px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.text-center{
+  margin-left: 100px;
+}
 #sign-in {
-  background-color: violet;
+  background-color: gray;
 }
 
 #sign-up {
-  background-color: violet;
+  background-color: gray;
 }
 
 #right-banner-1 {
@@ -35,18 +57,26 @@ aside {
 #logo-wrapper {
   color: red;
   background-color:green;
+  width: 100%;
 }
 
 #slider {
   background-color: orange;
+  width: 100%;
 }
 
 #titulos {
   color: green;
-  background-color: yellow;
+  background-color: blue;
 
 }
 #shoppers {
   color: red;
-  background-color: black;
+  background-color: ;
+}
+
+.shopper-box {
+  background-color: white;
+  border-color: gray;
+  padding: 5px;
 }
