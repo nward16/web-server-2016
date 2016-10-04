@@ -13,12 +13,14 @@ aside {
 }
 
 #tiendas {
-  background-color: FECB00;
+  background-color: #FECB00;
   width: 100%;
 }
 
 img.small {
-  width:50px;
+  width: 50px;
+  float: left;
+  margin: 4px 0 0 10px;
   height: 50px.
 }
 
@@ -36,11 +38,12 @@ img.medium {
 .navbar .navbar-collapse {
   text-align: center;
 }
-.text-center{
-  margin-left: 100px;
-}
+
 #sign-in {
-  background-color: gray;
+  background-color: ghostwhite;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #sign-up {
@@ -81,7 +84,37 @@ img.medium {
 }
 
 .shopper-box {
-  background-color: white;
   border-color: gray;
   padding: 5px;
+}
+
+.shopper-box img {
+    display: block;
+    margin: 0 auto;
+    border: 6px solid rgba(0,0,0, .2);
+}
+
+#menu-bar {
+  background-color: white;
+}
+
+aside {
+  position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    background-color: aqua;
+}
+
+aside section {
+  height: 25vh;
+}
+
+aside section .btn {
+  width: 100%;
+}
+
+.navbar-nav > li > a {
+  color: #666;
 }
