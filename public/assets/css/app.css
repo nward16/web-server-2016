@@ -1,6 +1,6 @@
 main {
   width: calc(100% - 200px);
-  background-color: violet;
+  background-color: white;
   color: red;
   float: left;
 }
@@ -12,10 +12,20 @@ aside {
   background-color: blue;
 }
 
+.navbar-right {
+  margin-top: 30px;
+    margin-right: 10px;
+}
+
 #tiendas {
-  background-color: #FECB00;
+  background-color: white;
   width: 100%;
 }
+
+#menu-bar {
+  font-size: x-large;
+}
+
 
 img.small {
   width: 175px;
@@ -51,15 +61,15 @@ img.medium {
 }
 
 #right-banner-1 {
-  background-color: orange;
+  background-color: white;
 }
 
 #right-banner-2 {
-  background-color: orange;
+  background-color: white;
 }
 
 #right-banner-3 {
-  background-color: orange;
+  background-color: white;
 }
 
 #logo-wrapper {
